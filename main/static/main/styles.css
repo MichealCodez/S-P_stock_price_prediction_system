@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: rgb(215, 217, 217) url("stock.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+}
