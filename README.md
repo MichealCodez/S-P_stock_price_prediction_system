@@ -1,6 +1,6 @@
 1 - Install Python on your computer
 
-2 - Create a virtual environment with the command py -m venv venv or python -m venv venv
+2 - Create a virtual environment with the command "py -m venv venv" or "python -m venv venv" and activate it with "venv/scripts/activate"
 
 3 - clone this repo to your local machine
 
