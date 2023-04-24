@@ -11,3 +11,9 @@
 6 - run this command (py manage.py runserver or python manage.py runserver) to run the developement server
 
 7 - the site will run at "localhost:8000" (open that on your browser) do not use the 127. url
+
+8 - CSS is here "S-P_stock_price_prediction_system/main/static/main/"
+
+9 - HTML is here "S-P_stock_price_prediction_system/main/templates/main/"
+
+## Only make changes to HTML and CSS file
