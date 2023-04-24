@@ -12,9 +12,9 @@
     <header>
         <h1>Trader</h1>
         <ul>
-            <li>Insights</li>
-            <li>News</li>
-            <li>Trade</li>
+            <li><a href="https://finance.yahoo.com/commodities" target="_blank">Insights</a></li>
+            <li><a href="https://finance.yahoo.com/topic/stock-market-news/" target="_blank">News</a></li>
+            <li><a href="https://www.tradingview.com/chart/?symbol=CME_MINI%3AES1%21" target="_blank">Trade</a></li>
         </ul>
     </header>
     <main>
@@ -30,6 +30,26 @@
             </fieldset>
             <input type="submit" value="Predict">
         </form>
+        <section>
+            <h2>Prediction</h2>
+            <table>
+                <thead>{{pred.stock}}</thead>
+                <tr>
+                    <td>Open</td>
+                    <td>High</td>
+                    <td>Low</td>
+                    <td>Close</td>
+                </tr>
+                <tr>
+                    <td>{{pred.open}}</td>
+                    <td>{{pred.high}}</td>
+                    <td>{{pred.low}}</td>
+                    <td>{{pred.close}}</td>
+                </tr>
+            </table>
+            <h3>Patterns</h3>
+            <p>{{pattern}}</p>
+        </section>
     </main>
 </body>
 </html>
