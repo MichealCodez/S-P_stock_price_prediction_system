@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,4 +11,291 @@ main {
 
 h1 {
     color: red;
+}
+*/ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* h1 {
+    color: red;
+} */
+
+
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #005299;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+/* Main Styles */
+main {
+    background: rgba(215, 217, 217, 0.5) url("stock.jpg") no-repeat fixed center;
+    background-size: cover;
+    max-width: 1500px;
+    font-size: 35px;
+    margin: 0 auto;
+    padding: 20px;
+    text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #005299;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+section table thead {
+    font-weight: bold;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+section table tr:first-child td {
+    font-weight: bold;
+}
+
+section table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+section h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+section p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    color: black;
+    background-color: #3f5569;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #005299;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+/* Main Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #005299;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+section table thead {
+    font-weight: bold;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+section table tr:first-child td {
+    font-weight: bold;
+}
+
+section table td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #ccc;
+}
+
+section h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+section p {
+    margin: 0;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
 }
